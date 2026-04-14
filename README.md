@@ -167,18 +167,6 @@ If issues arise after deploying:
 
 ---
 
-## 🧪 Post-Deploy Verification
-
-After deploying to dev/test, confirm:
-
-- [ ] Startup log shows correct Java version: `Starting App using Java 21.x.x`
-- [ ] No `InaccessibleObjectException` in logs
-- [ ] No `ClassNotFoundException` or `NoClassDefFoundError` at startup
-- [ ] Health check endpoint returns `UP`
-- [ ] Metrics/monitoring operational
-- [ ] CI pipeline passes on the feature branch
-
----
 
 ## 🤖 Compatible LLMs
 
@@ -193,12 +181,6 @@ The agent prompt is designed for LLMs with:
 | Claude Opus 4 | ✅ |
 | GPT-4o with tools | ✅ |
 | Gemini 1.5 Pro with tools | ✅ |
-
----
-
-## 📄 License
-
-[Choose: MIT / Apache 2.0 / your organization's preferred license]
 
 ---
 
