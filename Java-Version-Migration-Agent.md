@@ -1,4 +1,4 @@
-# Gradle Java Version Upgrade Agent
+# Gradle Java Version Migration Agent
 
 > **Reusable agent prompt** for upgrading the Java version in **any** Gradle-based Java service.
 > Discovery-first: the agent reads *your* project and determines what needs changing — nothing is assumed.
